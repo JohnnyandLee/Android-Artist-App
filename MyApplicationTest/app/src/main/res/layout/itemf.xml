@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/itemViewf"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/returnName"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/returnYear"
+                android:gravity="end"
+                android:layout_marginRight="20dp"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imgButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/right"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="-20dp"/>
+
+        <TextView
+            android:id="@+id/returnNation"
+            android:gravity="end"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-30dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/gray2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
